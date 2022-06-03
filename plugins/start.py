@@ -91,7 +91,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("👷 Tentang Saya", callback_data = "about"),
-                    InlineKeyboardButton("💻 Source Code", url="https://t.me/sintureveryday"),
+                    InlineKeyboardButton("💻 Source Code", url="https://t.me/baruditelee"),
                 ],
                 [    
                     InlineKeyboardButton("🔒 Tutup", callback_data = "close"),
@@ -120,7 +120,7 @@ async def not_joined(client: Client, message: Message):
                 InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="ᴊᴏɪɴ ɢʀᴏᴜᴘ", url=client.invitelink3),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink3),
             ],   
     ]
     try:
