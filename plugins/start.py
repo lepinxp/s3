@@ -91,7 +91,6 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("👷 Tentang Saya", callback_data = "about"),
-                    InlineKeyboardButton("💻 Source Code", url="https://t.me/baruditelee"),
                 ],
                 [    
                     InlineKeyboardButton("🔒 Tutup", callback_data = "close"),
